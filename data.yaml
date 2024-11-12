@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['bike', 'car']
+
+roboflow:
+  workspace: cc2024objectdetection
+  project: vehicle-detection-3s09e
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cc2024objectdetection/vehicle-detection-3s09e/dataset/1
